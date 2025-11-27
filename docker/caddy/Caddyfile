@@ -1,0 +1,13 @@
+:80 {
+    route /n8n* {
+        uri strip_prefix /n8n
+        reverse_proxy n8n:5678
+    }
+
+    route /metabase* {
+        uri strip_prefix /metabase
+        reverse_proxy metabase:3000
+    }
+
+    encode gzip
+}

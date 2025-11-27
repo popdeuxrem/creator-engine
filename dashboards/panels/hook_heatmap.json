@@ -1,0 +1,10 @@
+{
+  "panel": "Hook Performance Heatmap",
+  "source": "analytics_scored",
+  "dimensions": [
+    "idea_topic"
+  ],
+  "metrics": [
+    "final_score"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "dashboard": "Creator Intelligence Core",
+  "panels": [
+    {
+      "id": "p1",
+      "title": "Top Ideas",
+      "table": "analytics_scored"
+    },
+    {
+      "id": "p2",
+      "title": "Platform Performance",
+      "table": "analytics_raw"
+    },
+    {
+      "id": "p3",
+      "title": "Queue Status",
+      "table": "post_queue"
+    }
+  ]
+}
